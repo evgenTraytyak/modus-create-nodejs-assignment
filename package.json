@@ -4,7 +4,7 @@
   "description": "Modus Create Node.js API Development Assignment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/evgenTraytyak/modus-create-nodejs-assignment/issues"
   },
-  "homepage": "https://github.com/evgenTraytyak/modus-create-nodejs-assignment#readme"
+  "homepage": "https://github.com/evgenTraytyak/modus-create-nodejs-assignment#readme",
+  "devDependencies": {
+    "eslint": "^3.16.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
 }
