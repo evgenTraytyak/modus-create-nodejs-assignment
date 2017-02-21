@@ -1,0 +1,19 @@
+{
+  "name": "modus-create-nodejs-assignment",
+  "version": "1.0.0",
+  "description": "Modus Create Node.js API Development Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgenTraytyak/modus-create-nodejs-assignment.git"
+  },
+  "author": "Eugene Traytyak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evgenTraytyak/modus-create-nodejs-assignment/issues"
+  },
+  "homepage": "https://github.com/evgenTraytyak/modus-create-nodejs-assignment#readme"
+}
