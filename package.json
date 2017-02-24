@@ -4,7 +4,8 @@
   "description": "Modus Create Node.js API Development Assignment",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "./node_modules/mocha/bin/mocha ./tests/"
   },
   "repository": {
     "type": "git",
@@ -23,8 +24,13 @@
     "morgan": "^1.8.1"
   },
   "devDependencies": {
+    "axios-mock-adapter": "^1.7.1",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-http": "^3.0.0",
     "eslint": "^3.16.0",
     "eslint-config-airbnb-base": "^11.1.0",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0"
   }
 }
